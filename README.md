@@ -1,2 +1,0 @@
-# KSBNTV
-Created with CodeSandbox
