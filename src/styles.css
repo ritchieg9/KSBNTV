@@ -2,3 +2,38 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.channel-list-container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li img {
+  float: left;
+  margin: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+li img:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(252, 0, 0, 0.9);
+  box-shadow: 0px 0px 7px rgba(255, 0, 0, 0.9);
+}
+
+.player-container {
+}
+
+.player-square {
+  background-color: #0074d9;
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
